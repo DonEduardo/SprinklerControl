@@ -32,12 +32,6 @@
  
  
  
- FTDI_RX->D3			//The baud rate of software serial can't be higher that 19200, so we use software serial as a debug port
- 
- FTDI_TX->D2
- 
- 
- 
  When you use it with MEGA board, the connection should be like these:
  
  ESP8266_TX->RX1(D19)
