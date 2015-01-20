@@ -93,8 +93,8 @@
  */
 
 
-#define SSID       "ap5641"
-#define PASSWORD   "amore123"
+#define SSID       "yourssid"
+#define PASSWORD   "yourpassword"
 
 
 
