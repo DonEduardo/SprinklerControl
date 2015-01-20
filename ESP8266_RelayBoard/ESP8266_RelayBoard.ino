@@ -20,9 +20,9 @@
  
  When you use it with UNO board, the connection should be like these:
  
- ESP8266_TX->D0
+ ESP8266_TX->(your softserial receive pin)
  
- ESP8266_RX->D1
+ ESP8266_RX->1K resistor->(your softserial transmit pin)
  
  ESP8266_CH_PD->3.3V
  
@@ -93,8 +93,8 @@
  */
 
 
-#define SSID       "yourssid"
-#define PASSWORD   "yourssidpassword"
+#define SSID       "ap5641"
+#define PASSWORD   "amore123"
 
 
 

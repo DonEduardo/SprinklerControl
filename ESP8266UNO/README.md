@@ -1,8 +1,8 @@
-# ESP8266 library #
+# ESP8266UNO library #
 
 ## CAUTION! ##
 
-You may need to modify the baud rate in file `uartWIFI.cpp`:
+You may need to modify the baud rate in file `uartWIFIUNO.cpp`:
 
 	_cell.begin(9600)
 
@@ -12,24 +12,24 @@ to
 
 ## Select your board ##
 
-When you use with UNO board, uncomment the follow line in uartWIFI.h.
+When you use with UNO board, uncomment the follow line in uartWIFIUNO.h.
 
 	#define UNO
 
-When you use with MEGA board, uncomment the follow line in uartWIFI.h.
+When you use with MEGA board, uncomment the follow line in uartWIFIUNO.h.
 
 	#define MEGA
 	
-When you use with Leonardo board, uncomment the follow line in uartWIFI.h.
+When you use with Leonardo board, uncomment the follow line in uartWIFIUNO.h.
 
 	#define LEO
 
 ## Connection: ##
 When you use it with UNO board, the connection should be like these:
 
-ESP8266_TX->D0
+ESP8266_TX->(your softserial recieve pin)
 
-ESP8266_RX->D1
+ESP8266_RX->1K Resistor->(your softserail transmit pin)
 
 ESP8266_CHPD->3.3V
 
@@ -86,13 +86,17 @@ The SRAM size of mega is bigger than UNO's, so it is better to use MEGA board to
 
 **BUG**: When you use this library and receive the http package, it might miss some characters because the library can't process so much data in the same time.
 
-**Created by Stan Lee(Lizq@iteadstudio.com)**
+**Original Library Created by Stan Lee(Lizq@iteadstudio.com)**
 
 2014/10/8
 
 **Modified version**
 
 V1.0	released the first version of ESP8266 library
+
+** This version modified by Don Eduardo to allow softserial to be used with the UNO (and compatibles such as the Nano) to communicate with the ESP8266 module now that the firmware supports 9600 baud.
+
+
 
 
 
