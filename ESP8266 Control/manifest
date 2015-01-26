@@ -1,0 +1,8 @@
+#appname:TestNetSocket
+#publisher:Don Eduardo
+#url:https://www.youtube.com/user/DonEduardo954/videos
+#image:appicon.png
+#appid:com.doneduardo.testnetsocket
+#desc:Basic Experimental program to test communication with an ESP8266 Wifi Module and an Arduino
+#type:ipad
+#guid:324a8b90-be5b-4a4c-bf8c-c7b2f62ee592
