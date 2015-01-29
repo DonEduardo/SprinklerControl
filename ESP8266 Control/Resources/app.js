@@ -328,6 +328,7 @@ if (Ti.version < 1.8) {
 		right : 5,
 		width : 60,
 		value : 15,
+		color : 'Black',
 		//softKeyboardOnFocus : Ti.UI.Android.SOFT_KEYBOARD_DEFAULT_ON_FOCUS, // Android only
 
 		keyboardType : Titanium.UI.KEYBOARD_DECIMAL_PAD,
@@ -424,6 +425,10 @@ if (Ti.version < 1.8) {
 		});
 		dialog.addEventListener('click', function(e) {
 			Ti.API.info('e.text: ' + e.text);
+			titleText = e.text;
+			Ti.App.Properties.setString('titleText', titleText);
+			titleLabel.text = titleText;
+
 		});
 		//dialog.show();
 	}
