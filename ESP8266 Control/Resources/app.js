@@ -192,13 +192,15 @@ if (Ti.version < 1.8) {
 		top : 100,
 		left : 5,
 		color : 'white',
-		backgroundImage : 'btn_green_matte.9.png'
+		backgroundImage : 'btn_green_matte.9.png',
+		backgroundDisabledImage: 'btn_white_matte.9.png'
 	});
 
 	// Listen for click events.
 	turnON.addEventListener('click', function() {
 		//alert('\'turnON\' was clicked!');
 		writeToSocket("CH0ON\n");
+		turnON.enabled = false;
 		my_timer.set(timerMinutes.value, 0);
 		my_timer.start();
 	});
@@ -219,6 +221,7 @@ if (Ti.version < 1.8) {
 		//alert('\'turnOFF\' was clicked!');
 		writeToSocket("CH0OFF\n");
 		my_timer.stop();
+		turnON.enabled = true;
 		clockTicker.text = timerMinutes.value + " : 00";
 	});
 	var Window;
