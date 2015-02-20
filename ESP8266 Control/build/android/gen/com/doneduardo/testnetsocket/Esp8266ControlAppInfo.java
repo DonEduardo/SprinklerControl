@@ -17,7 +17,7 @@ public final class Esp8266ControlAppInfo implements ITiAppInfo
 	}
 
 	public String getDeployType() {
-		return "development";
+		return "test";
 	}
 
 	public String getId() {

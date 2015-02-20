@@ -1,6 +1,6 @@
 {
-	"target": "emulator",
-	"deployType": "development",
+	"target": "device",
+	"deployType": "test",
 	"classname": "Esp8266Control",
 	"platformPath": "/Users/jstacy/Library/Application Support/Titanium/mobilesdk/osx/3.5.0.GA/android",
 	"modulesHash": "d41d8cd98f00b204e9800998ecf8427e",
@@ -21,12 +21,12 @@
 	"fullscreen": false,
 	"skipJSMinification": true,
 	"mergeCustomAndroidManifest": false,
-	"encryptJS": false,
+	"encryptJS": true,
 	"minSDK": 10,
 	"targetSDK": 16,
-	"propertiesHash": "29f739a58f978a8021828a195a9e0576",
+	"propertiesHash": "320857e9943785652fbd60df5a0c4a1a",
 	"activitiesHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"servicesHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"jssFilesHash": "d41d8cd98f00b204e9800998ecf8427e",
-	"jarLibHash": "8a42e106124dd4615e2d5e04a2e8e47a"
+	"jarLibHash": "7ec104292662a4ad75b743352ce4b735"
 }

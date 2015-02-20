@@ -113,7 +113,7 @@ if (Ti.version < 1.8) {
 		writeToSocket("CH0OFF\n");
 		my_timer.stop();
 		clockTicker.text = timerMinutes.value + " : 00";
-
+		turnON.enabled = true;
 		alert("The time is up!");
 	});
 
@@ -151,8 +151,11 @@ if (Ti.version < 1.8) {
 		},
 		error : function(e) {
 			Ti.API.info('Error (' + e.errorCode + '): ' + e.error);
+			clientStatusArea.value=('Error (' + e.errorCode + '): ' + e.error);
 		},
 	});
+	clientStatusArea.value = "Trying to connect to : " + hostName;
+
 	socket.connect();
 
 	function writeToSocket(msg) {
@@ -395,8 +398,11 @@ if (Ti.version < 1.8) {
 			},
 			error : function(e) {
 				Ti.API.info('Error (' + e.errorCode + '): ' + e.error);
+				clientStatusArea.value = ('Error (' + e.errorCode + '): ' + e.error);
 			},
 		});
+		
+		clientStatusArea.value = "Trying to connect to : " + hostName;
 		socket.connect();
 
 		alert('Input was: ' + hostIP.value);

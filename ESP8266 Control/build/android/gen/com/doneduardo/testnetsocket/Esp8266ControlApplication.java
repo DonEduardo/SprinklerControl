@@ -33,6 +33,8 @@ public final class Esp8266ControlApplication extends TiApplication
 		postAppInfo();
 
 
+	    KrollAssetHelper.setAssetCrypt(new AssetCryptImpl());
+
 
 		V8Runtime runtime = new V8Runtime();
 
@@ -43,40 +45,6 @@ public final class Esp8266ControlApplication extends TiApplication
 		stylesheet = new ApplicationStylesheet();
 		postOnCreate();
 
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
 
 	
 

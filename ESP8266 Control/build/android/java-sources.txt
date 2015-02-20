@@ -1,0 +1,8 @@
+"/Users/jstacy/Documents/Titanium_Studio_WorkspaceNew/ESP8266 Control/build/android/gen/android/support/v7/appcompat/R.java"
+"/Users/jstacy/Documents/Titanium_Studio_WorkspaceNew/ESP8266 Control/build/android/gen/com/doneduardo/testnetsocket/ApplicationStylesheet.java"
+"/Users/jstacy/Documents/Titanium_Studio_WorkspaceNew/ESP8266 Control/build/android/gen/com/doneduardo/testnetsocket/AssetCryptImpl.java"
+"/Users/jstacy/Documents/Titanium_Studio_WorkspaceNew/ESP8266 Control/build/android/gen/com/doneduardo/testnetsocket/Esp8266ControlActivity.java"
+"/Users/jstacy/Documents/Titanium_Studio_WorkspaceNew/ESP8266 Control/build/android/gen/com/doneduardo/testnetsocket/Esp8266ControlAppInfo.java"
+"/Users/jstacy/Documents/Titanium_Studio_WorkspaceNew/ESP8266 Control/build/android/gen/com/doneduardo/testnetsocket/Esp8266ControlApplication.java"
+"/Users/jstacy/Documents/Titanium_Studio_WorkspaceNew/ESP8266 Control/build/android/gen/com/doneduardo/testnetsocket/R.java"
+"/Users/jstacy/Documents/Titanium_Studio_WorkspaceNew/ESP8266 Control/build/android/gen/ti/modules/titanium/ui/R.java"
