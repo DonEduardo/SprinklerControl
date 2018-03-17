@@ -3,5 +3,10 @@
 
 Code Associated with my project to control sprinklers using smart phones and desktops
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=L_gBXDuvRn4
+" target="_blank"><img src="http://img.youtube.com/vi/L_gBXDuvRn4/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
 Link to Video of Project:
 http://youtu.be/MT4K-VgkMdU
